@@ -141,7 +141,8 @@
             padding-left: 29px;
             height: 45px;
             border-radius: 20px;
-            border-color: grey;
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,0.2);
             outline: none;
             &:nth-child(4) {
                 margin-right: 0;
