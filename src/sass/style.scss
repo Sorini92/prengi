@@ -16,5 +16,14 @@
     margin: 0 auto;
 }
 
+.divider {
+    width: 148px;
+    height: 2px;
+    background: $main-color;
+    margin: 20px auto 20px auto;
+}
+
 @import 'blocks/buttons';
+@import 'blocks/titles';
 @import 'blocks/promo';
+@import 'blocks/advantages';
