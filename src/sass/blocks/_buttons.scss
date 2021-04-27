@@ -8,4 +8,7 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
+    &:focus {
+    outline: none;
+    }
 }
