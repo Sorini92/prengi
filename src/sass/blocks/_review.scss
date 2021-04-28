@@ -8,6 +8,13 @@
     &__img {
         display: block;
         margin: 15px auto 0 auto;
+        width: 114px;
+        height: 114px;
+        border-radius: 100%;
+        img {
+            width: 114px;
+            height: 114px;
+        }
     }
     &__name {
         margin-top: 20px;
@@ -26,19 +33,21 @@
     }
     .slick-prev, .slick-next {
         position: absolute;
-        top: 50%;
+        top: 30%;
         transform: translateY(-50%);
-        left: -66px;
+        left: 200px;
+        right: auto;
         background-color: #fff;
         border: none;
         outline: none;
+        z-index: 1;
         img {
             width: 14px;
             height: 46px;
         }
     }
     .slick-next {
-        right: -66px;
+        right: 200px;
         left: auto;
     }
 
