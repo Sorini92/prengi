@@ -1,12 +1,30 @@
 .map {
+    position: relative;
     height: 500px;
-    padding: 170px 360px 170px 850px;
     background: url('../img/map/map_bg.png') center center / cover no-repeat;
+    &__point {
+        position: absolute;
+        top: 225px;
+        left: 720px;
+    }
     &__form {
+        position: absolute;
+        top: 170px;
+        left: 820px;
         padding: 25px 50px 25px 25px;
         width: 305px;
         height: 160px;
         background-color: #ffffff;
+    }
+    &__arrow {
+        display: block;
+        height: 40px;
+        width: 40px;
+        background-color: #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 230px;
+        left: 805px;
     }
     &__title {
         font-family: Roboto;
