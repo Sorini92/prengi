@@ -1,11 +1,182 @@
 @media (max-width: 1200px) {
+    .price {
+        &__grid {
+            margin-top: 34px;
+            grid-template-columns: repeat(auto-fit, 270px);
+            column-gap: 15px;
+            row-gap: 15px;
+            justify-content: center;
+        }
+        &__consult {
+            &-circle {
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 420px;
+                    top: 48px;
+                    left: -430px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 420px;
+                    top: 48px;
+                    left: 110px;
+                }
+            }
+            &-btn {
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 390px;
+                    top: 20px;
+                    left: -400px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 390px;
+                    top: 20px;
+                    left: 170px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
+    .price {
+        &__consult {
+            &-circle {
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 300px;
+                    top: 48px;
+                    left: -310px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 300px;
+                    top: 48px;
+                    left: 110px;
+                }
+            }
+            &-btn {
+                top: 200px;
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 270px;
+                    top: 20px;
+                    left: -280px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 270px;
+                    top: 20px;
+                    left: 170px;
+                }
+            }
+        }
+        &__form {
+            grid-template-columns: repeat(auto-fit, 250px);
+            height: 220px;
+            column-gap: 10px;
+            input {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width:768px) {
+    .price {
+        &__consult {
+            &-circle {
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 210px;
+                    top: 48px;
+                    left: -220px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 210px;
+                    top: 48px;
+                    left: 110px;
+                }
+            }
+            &-btn {
+                top: 200px;
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 180px;
+                    top: 20px;
+                    left: -190px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 180px;
+                    top: 20px;
+                    left: 170px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
+    .price {
+        &__consult {
+            font-size: 20px;
+            &-circle {
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 90px;
+                    top: 48px;
+                    left: -100px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 90px;
+                    top: 48px;
+                    left: 110px;
+                }
+            }
+            &-btn {
+                top: 280px;
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 60px;
+                    top: 20px;
+                    left: -70px;
+                }
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 60px;
+                    top: 20px;
+                    left: 170px;
+                }
+            }
+        }
+        &__form {
+            grid-template-columns: repeat(auto-fit, 250px);
+            height: 300px;
+            column-gap: 10px;
+            input {
+                width: 100%;
+            }
+        }
+    }
 }

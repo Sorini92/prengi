@@ -1,11 +1,178 @@
 @media (max-width: 1200px) {
+    .promo {
+        &__wrapper {
+            justify-content: space-between;
+        }
+        &__name {
+            font-size: 20px;
+        }
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 36px;
+        }
+        &__menu {
+            &-link {
+                padding: 5px;
+            }
+        }
+        &__divider{
+            padding: 0 100px 0 100px;
+            &-circle {
+                margin: 0 10px 0 10px;
+            }
+        }
+        &__grid {
+            grid-template-columns: repeat(4, 220px);
+            column-gap: 20px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
+   .promo {
+       padding-bottom: 20px;
+    &__name {
+        font-size: 18px;
+    }
+    &__title {
+        font-size: 30px;
+    }
+    &__subtitle {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    &__divider{
+        padding: 0 60px 0 60px;
+        &-circle {
+            margin: 0 10px 0 10px;
+        }
+    }
+    &__grid {
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(2, minmax(200px, auto));
+        justify-content: center;
+        column-gap: 20px;
+    }
+    &__endbtn {
+        margin-top: 20px;
+    }
+    &__menu {
+        &-link {
+            font-size: 10px;
+        }
+        &-phone {
+            font-size: 10px;
+        }
+        &-text {
+            font-size: 10px;
+        }
+        &-logo {
+            height: 60px;
+            width: 60px;
+            img {
+                width: 100%;
+            }
+        }
+        &-btn {
+            width: 140px;
+        }
+    }
+   }
 }
 
 @media (max-width:768px) {
+.promo {
+    &__name {
+        font-size: 16px;
+    }
+    &__title {
+        font-size: 26px;
+    }
+    &__subtitle {
+        font-size: 24px;
+    }
+    &__wrapper {
+        justify-content: space-around;
+    }
+    &__menu {
+        &-link {
+            display: none;
+        }
+        &-phone {
+            font-size: 10px;
+        }
+        &-text {
+            font-size: 10px;
+        }
+        &-logo {
+            height: 50px;
+            width: 50px;
+            img {
+                width: 100%;
+            }
+        }
+        &-descr {
+            margin-left: 200px;
+        }
+        &-btn {
+            width: 140px;
+        }
+    }
+}
+    
 }
 
 @media (max-width: 576px) {
+    .promo {
+        &__name {
+            font-size: 15px;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__wrapper {
+            justify-content: center;
+        }
+        &__menu {
+            &-phone {
+                font-size: 10px;
+            }
+            &-text {
+                font-size: 10px;
+            }
+            &-logo {
+                height: 50px;
+                width: 50px;
+                img {
+                    width: 100%;
+                }
+            }
+            &-descr {
+                margin: 0 10px 0 10px;
+            }
+            &-btn {
+                width: 120px;
+                font-size: 10px;
+            }
+        }
+        &__divider{
+            padding: 0 25px 0 25px;
+            &-circle {
+                width: 17px;
+                height: 5px;
+                margin: 0 10px 0 10px;
+            }
+        }
+        &__grid {
+            grid-template-columns: 220px;
+            grid-template-rows: repeat(4, minmax(200px, auto));
+            justify-content: center;
+            column-gap: 20px;
+        }
+    }
 }

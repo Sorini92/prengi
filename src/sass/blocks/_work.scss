@@ -5,6 +5,7 @@
         display: grid;
         grid-template-columns: repeat(3, 360px);
         column-gap: 30px;
+        row-gap: 30px;
     }
     &__block {
         display: grid;
