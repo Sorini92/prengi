@@ -1,13 +1,11 @@
 @import 'libs/bootstrap-reboot.min';
-@import 'libs/slick.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
 
 * {
-    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -17,25 +15,6 @@
     margin: 0 auto;
 }
 
-.divider {
-    width: 148px;
-    height: 2px;
-    background: $main-color;
-    margin: 20px auto 20px auto;
-}
 
-@import 'blocks/buttons';
-@import 'blocks/titles';
-@import 'blocks/promo';
-@import 'blocks/advantages';
-@import 'blocks/work';
-@import 'blocks/agent';
-@import 'blocks/price';
-@import 'blocks/managers';
-@import 'blocks/scheme';
-@import 'blocks/review';
-@import 'blocks/questions';
-@import 'blocks/map';
-@import 'blocks/footer';
-@import 'blocks/media';
+
 
