@@ -65,9 +65,11 @@
         }
     }
     &__content {
-        display: none;
+        display: flex !important;
+        height: 0px;
+        overflow: hidden;
         &_active {
-            display: block;
+            height: 694px;
         }
     }
     .slick-prev, .slick-next {

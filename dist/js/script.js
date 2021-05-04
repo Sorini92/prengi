@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('ul.solutions__tabs').on('click', 'li:not(.solutions__tab_active)', function() {
         $(this)
           .addClass('solutions__tab_active').siblings().removeClass('solutions__tab_active')
-          .closest('div.container').find('div.solutions__content').removeClass('solutions__content_active').eq($(this).index()).addClass('solutions__content_active');
+          .closest('.container').find('.solutions__content').removeClass('solutions__content_active').eq($(this).index()).addClass('solutions__content_active');
       });
    
     $('.solutions__inner').slick({
