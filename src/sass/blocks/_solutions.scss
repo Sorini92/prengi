@@ -76,19 +76,20 @@
         position: absolute;
         top: 60%;
         transform: translateY(-50%);
-        left: -150px;
+        left: -20px;
         right: auto;
         border: none;
         outline: none;
         z-index: 1;
-        background: #fff;
+        background: #e5e6e7;
         img {
             width: 14px;
             height: 46px;
         }
     }
     .slick-next {
-        right: -150px;
+        background: #ecedee;
+        right: -25px;
         left: auto;
     }
 
