@@ -270,15 +270,22 @@
             width: 540px;
         }
         &__tabs {
-            padding-left: 20px;
             height: 54px;
-            width: 540px;
+            width: auto;
+            padding: 0;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 5px;
+            div {
+                margin-right: 0;
+            }
         }
         &__tab {
             font-size: 9px;
+            justify-content: center;
         }
         &__inner {
-            padding-top: 33px;
             width: 566px;
             img {
                 width: 540px;
@@ -316,10 +323,10 @@
     }
     .options {
         &__subtitle-left {
-            font-size: 15px;
+            font-size: 13px;
         }
         &__subtitle-right {
-            font-size: 15px;
+            font-size: 13px;
         }
         &__text-left {
             margin-top: 10px;
@@ -331,10 +338,10 @@
             font-size: 13px;
         }
         &__descr-left {
-            width: 280px;
+            width: 260px;
         }
         &__descr-right {
-            width: 280px;
+            width: 260px;
         }
     }
     .access {
@@ -367,14 +374,17 @@
         &__wrapper {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            justify-content: center;
+            justify-content: space-around;
             row-gap: 10px;
         }
         &__block {
-        width: 150px;
+        width: auto;
         }
     } 
     .promo {
+        &__wrapper2 {
+            justify-content: center;
+        }
         &__left {
             width:300px;
         }
@@ -508,7 +518,7 @@
             grid-template-rows: repeat(6, 250px);
         }
         &__item {
-            width: 300px;
+            width: 100%;
             height: 90px;
         }
         &__descr {
