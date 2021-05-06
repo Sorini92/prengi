@@ -60,7 +60,9 @@
         border-radius: 5px;
         &:hover {
             box-shadow: 3px 3px 20px var(--main-color);
-            border: none;
+        }
+        &:focus {
+            outline: none;
         }
     }
 }
