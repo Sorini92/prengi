@@ -1,0 +1,164 @@
+.beans {
+    min-height: 1000px;
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    &__item {
+        width: 350px;
+        &-img {
+            width: 272px;
+            height: 355px;
+        }
+        &-title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: #000000;
+            text-align: center;
+        }
+        &-descr {
+            margin-top: 25px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    &__divider {
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-line {
+            height: 1px;
+            width: 60px;
+            background: #000;
+        }
+    }
+    &__beans {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    &__line {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+        height: 0px;
+        border: 1px solid #000000;
+    }
+    &__facilities {
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        &-search {
+            width: 300px;
+            display: flex;
+            margin-right: 73px;
+            align-items: center;
+            label {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+            input {
+                width: 180px;
+                height: 30px;
+                background: #FFFFFF;
+                box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+                border: 1px grey;
+                border-radius: 4px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 17px;
+                text-align: center;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+        &-filter {
+            display: flex;
+            align-items: center;
+            &-descr {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                text-align: center;
+                color: #000000;
+                margin-right: 35px;
+            }
+            &-btn {
+                width: 75px;
+                height: 30px;
+                background: #FFFFFF;
+                box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+                border-radius: 0px;
+                border: 1px grey;
+                margin-right: 5px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                text-align: center;
+                color: #000000;
+            }
+        }
+    }
+    &__product {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__card {
+        cursor: pointer;
+        box-shadow: 10px 10px 20px 12px rgba(148, 143, 152, 0.2);
+        margin-bottom: 30px;
+        margin-left: 35px;
+        margin-right: 35px;
+        padding: 21px;
+        width: 220px;
+        height: 240px;
+        border-radius: 8px;
+        filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+        &-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 170px;
+            max-height: 135px;
+        }
+        &-country {
+            margin-top: 10px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            text-align: right;
+            color: #000000;
+        }
+        &-descr {
+            margin-top: 10px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+        &-price {
+            margin-top: 10px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: end;
+            color: #000000;
+        }
+    }
+}

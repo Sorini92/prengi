@@ -1,0 +1,79 @@
+.aboutit {
+    min-height: 400px;
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        width: 450px;
+        &-img {
+            width: 390px;
+            height: 355px;
+        }
+        &-title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: #000000;
+            text-align: center;
+        }
+        &-country {
+            margin-top: 25px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: #000000;
+            span {
+                font-weight: bold;
+            }
+        }
+        &-descr {
+            margin-top: 16px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            span {
+                font-weight: bold;
+            }
+        }
+        &-price {
+            margin-top: 16px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            color: #000000;
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+    &__divider {
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-line {
+            height: 1px;
+            width: 60px;
+            background: #000;
+        }
+    }
+    &__beans {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    &__line {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+        height: 0px;
+        border: 1px solid #000000;
+    }
+}

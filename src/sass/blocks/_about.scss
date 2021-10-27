@@ -1,0 +1,41 @@
+.about {
+    min-height: 520px;
+    padding-top: 80px;
+    &__header {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+    }
+    &__divider {
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-line {
+            height: 1px;
+            width: 60px;
+            background: #000;
+        }
+    }
+    &__beans {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    &__descr {
+        display: block;
+        margin: 40px auto;
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        width: 589px;
+    }
+}

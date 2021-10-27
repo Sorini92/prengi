@@ -1,15 +1,8 @@
 @import 'libs/bootstrap-reboot.min';
-@import 'libs/slick.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
-@import 'base/mixins';
-
-:root {
-    --main-color: #00c2f0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merienda', cursive;
     margin: 0;
     padding: 0;
 }
@@ -19,12 +12,12 @@
     margin: 0 auto;
 }
 
-@import 'blocks/head';
+@import 'blocks/navigation';
 @import 'blocks/promo';
-@import 'blocks/advantages';
-@import 'blocks/solutions';
-@import 'blocks/scope';
-@import 'blocks/options';
-@import 'blocks/access';
+@import 'blocks/about';
+@import 'blocks/best';
 @import 'blocks/footer';
-@import 'blocks/media';
+@import 'blocks/header';
+@import 'blocks/beans';
+@import 'blocks/aboutit';
+@import 'blocks/pleasure';

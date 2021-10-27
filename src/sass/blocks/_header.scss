@@ -1,0 +1,13 @@
+.header {
+    background: url('../img/bg-second.jpg') center (center / cover) no-repeat;
+    min-height: 260px;
+    &__title {
+        padding-top: 130px;
+        padding-bottom: 80px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
