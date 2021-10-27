@@ -1,0 +1,577 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .head {
+        &__block {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__descr {
+            text-align: center;
+            margin-left: 0;
+        }
+        &__subtitle {
+            margin-top: 5px;
+        }
+    }
+    .advantages {
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 300px);
+            grid-template-rows: repeat(3, 255px);
+            justify-content: center;
+            column-gap: 30px;
+        }
+        &__img {
+            &-abs {
+                width: 65px;
+                height: 65px;
+                position: absolute;
+                opacity: 0.15;
+                left: 233px;
+                top: 188px;
+            }
+        }
+    }
+    .solutions {
+        padding: 40px 0 40px 0;
+    }
+    .scope {
+        &__grid {
+            grid-template-columns: repeat(2, 480px);
+            grid-template-rows: repeat(3, 355px);
+        }
+    }
+    .options {
+        &__text-left {
+            text-align: end;
+            font-size: 16px;
+        }
+        &__text-right {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        &__descr-left {
+            width: 470px;
+        }
+        &__descr-right {
+            width: 470px;
+        }
+    }
+    .access {
+        &__block {
+            &::before {
+                width: 304px;
+            }
+            &::after {
+                height: 304px;
+            }
+        }
+    }
+    .footer {
+        &__divider {
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .head {
+        &__descr {
+            width: 145px
+        }
+    }
+    .promo {
+        min-height: 500px;
+        padding-bottom: 30px;
+        &__img {
+            display: none;
+        }
+    }
+    .advantages {
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 210px);
+            grid-template-rows: repeat(3, 255px);
+            justify-content: center;
+            column-gap: 30px;
+        }
+        &__descr {
+            font-size: 13px;
+            span {
+                font-size: 13px;
+            }
+        }
+        &__block {
+            padding: 25px 15px 25px 15px;
+        }
+        &__img {
+            &-abs {
+                width: 55px;
+                height: 55px;
+                position: absolute;
+                opacity: 0.15;
+                left: 153px;
+                top: 198px;
+            }
+        }
+    }
+    .solutions {
+        &__macbook {
+            display: none;
+        }
+        &__content {
+            display: flex !important;
+            height: 0px;
+            overflow: hidden;
+            &_active {
+                height: 694px;
+            }
+        }
+        &__tabs {
+            padding-left: 20px;
+            height: 64px;
+            width: 680px;
+        }
+        &__tab {
+            font-size: 12px;
+        }
+        .slick-dots {
+            bottom: -100px;
+        }
+        .slick-dots li button:before  {
+            opacity: 1;
+        }
+    }
+    .scope {
+        min-height: 1150px;
+        &__grid {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 300px);
+        }
+        &__item {
+            width: 360px;
+            height: 126px;
+        }
+        &__descr {
+            padding: 0 90px;
+            font-size: 15px;
+            line-height: 26px;
+        }
+    }
+    .options {
+        &__subtitle-left {
+            font-size: 20px;
+        }
+        &__subtitle-right {
+            font-size: 20px;
+        }
+        &__text-left {
+            text-align: end;
+            font-size: 14px;
+        }
+        &__text-right {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        &__descr-left {
+            width: 370px;
+        }
+        &__descr-right {
+            width: 370px;
+        }
+    }
+    .footer {
+        &__block {
+            max-width: 280px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+    .head {
+        &__block {
+            align-items: center;
+        }
+        &__descr {
+            width: 100px
+        }
+        &__text {
+            font-size: 10px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+    .promo {
+        &__logo {
+            width: 120px;
+            height: auto;
+        }
+        &__menu {
+            margin-left: 20px;
+            width: 500px;
+        }
+    }
+    .advantages {
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 150px);
+            grid-template-rows: repeat(3, 180px);
+            justify-content: center;
+            column-gap: 30px;
+        }
+        &__descr {
+            font-size: 11px;
+            line-height: 15px;
+            span {
+                font-size: 11px;
+                line-height: 15px;
+            }
+            &-center {
+                margin-top: 25px;
+                font-size: 35px;
+                line-height: 30px;
+            }
+        }
+        &__block {
+            padding: 15px 10px 15px 10px;
+        }
+        &__img {
+            width: 70px;
+            height: 80px;
+            &-abs {
+                width: 45px;
+                height: 45px;
+                position: absolute;
+                opacity: 0.15;
+                left: 103px;
+                top: 134px;
+            }
+            &-center {
+                width: 100px;
+                height: 55px;
+                margin-top: 15px;
+            }
+        }
+        
+    }
+    .solutions {
+        min-height: 850px;
+        &__title {
+            width: 540px;
+        }
+        &__tabs {
+            height: 54px;
+            width: auto;
+            padding: 0;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 5px;
+            div {
+                margin-right: 0;
+            }
+        }
+        &__tab {
+            font-size: 9px;
+            justify-content: center;
+        }
+        &__inner {
+            width: 566px;
+            img {
+                width: 540px;
+            }
+        }
+        &__content {
+            display: flex !important;
+            height: 0px;
+            overflow: hidden;
+            max-width: 540px;
+            &_active {
+                height: 540px;
+            }
+        }
+    }
+    .scope {
+        padding: 40px 0 40px 0;
+        min-height: 1000px;
+        &__title {
+            width: auto;
+        }
+        &__grid {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 250px);
+        }
+        &__item {
+            width: 270px;
+            height: 126px;
+        }
+        &__descr {
+            padding: 0 40px;
+            font-size: 12px;
+            line-height: 26px;
+        }
+    }
+    .options {
+        &__subtitle-left {
+            font-size: 13px;
+        }
+        &__subtitle-right {
+            font-size: 13px;
+        }
+        &__text-left {
+            margin-top: 10px;
+            text-align: end;
+            font-size: 13px;
+        }
+        &__text-right {
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        &__descr-left {
+            width: 260px;
+        }
+        &__descr-right {
+            width: 260px;
+        }
+    }
+    .access {
+        min-height: 600px;
+        padding: 40px 0;
+        &__subtitle {
+            width: auto;
+            font-size: 25px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__block {
+            max-width: 550px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+        }
+    }
+}  
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .head {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-around;
+            row-gap: 10px;
+        }
+        &__block {
+        width: auto;
+        }
+    } 
+    .promo {
+        &__wrapper2 {
+            justify-content: center;
+        }
+        &__left {
+            width:300px;
+        }
+        &__title {
+            width: 300px;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        &__subtitle {
+            width: 300px;
+            text-align: center;
+        }
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__menu {
+            width: 300px;
+            flex-wrap: wrap;
+            margin: 0;
+        }
+        &__btn {
+            display: block;
+            margin: 30px auto 0 auto;
+        }
+        &__logo {
+            margin-bottom: 10px;
+        }
+    }
+    .advantages {
+        padding: 40px 0 40px 0;
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(1, 250px);
+            grid-template-rows: repeat(7, 220px);
+            justify-content: center;
+            row-gap: 20px;
+        }
+        &__block {
+            padding: 25px 10px 15px 10px;
+            &-center {
+                grid-column: 1 / 2;
+            }
+        }
+        &__img {
+            width: 100px;
+            height: 110px;
+            &-abs {
+                width: 45px;
+                height: 45px;
+                position: absolute;
+                opacity: 0.15;
+                left: 203px;
+                top: 174px;
+            }
+            &-center {
+                width: 150px;
+                height: 75px;
+                margin-top: 15px;
+            }
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 17px;
+            span {
+                font-size: 12px;
+                line-height: 15px;
+            }
+            &-center {
+                margin-top: 35px;
+                font-size: 35px;
+            }
+        }
+    }
+    .solutions {
+        min-height: 550px;
+        padding: 20px 0 20px 0;
+        &__title {
+            width: 300px;
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        &__tabs {
+            width: auto;
+            padding-left: 0;
+            margin-right: 0;
+            border: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            div {
+                margin-right: 0;
+            }
+        }
+        &__tab {
+            font-size: 9px;
+            border: 1px solid #fff;
+            justify-content: center;
+            &:nth-child(6) {
+                border: 1px solid #fff;
+            }
+        }
+        &__inner {
+            padding-top: 63px;
+            width: 300px;
+            height: 250px;
+            img {
+                width: 300px;
+                height: 250px;
+            }
+        }
+        &__content {
+            display: flex !important;
+            height: 0px;
+            overflow: hidden;
+            max-width: 540px;
+            &_active {
+                height: 410px;
+            }
+        }
+    }
+    .scope {
+        padding: 20px 0 20px 0;
+        min-height: 1000px;
+        &__title {
+            width: auto;
+            margin-bottom: 30px;
+        }
+        &__grid {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 250px);
+        }
+        &__item {
+            width: 100%;
+            height: 90px;
+        }
+        &__descr {
+            padding: 0 40px;
+            font-size: 12px;
+            line-height: 26px;
+        }
+    }
+    .options {
+        &__grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: 400px 400px;
+        }
+        &__title {
+            width: 300px;
+            top: 40px;
+            font-size: 20px;
+        }
+        &__subtitle-left {
+            font-size: 15px;
+        }
+        &__subtitle-right {
+            font-size: 15px;
+        }
+        &__text-left {
+            margin-top: 10px;
+            text-align: end;
+            font-size: 13px;
+        }
+        &__text-right {
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        &__descr-left {
+            padding-right: 40px;
+            width: 280px;
+        }
+        &__descr-right {
+            padding-left: 40px;
+            width: 280px;
+        }
+        &__square-right {
+            left: 25px;
+        }
+        &__square-left {
+            right: 25px;
+        }
+    }
+    .access {
+        min-height: 600px;
+        &__subtitle {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.access {
+    min-height: 690px;
+    padding: 80px 0 80px 0;
+    &__block {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 302px;
+        height: 302px;
+        border: 1px solid var(--main-color);
+        &::before {
+            position:absolute;
+            content: "";
+            width: 302px;
+            height: 220px;
+            left:50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+        }
+        &::after {
+            position:absolute;
+            content: "";
+            width: 220px;
+            height: 302px;
+            left:50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+        }
+    }
+    &__img {
+        z-index: 2;
+        display: block;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin: 74px auto 0 auto;
+        text-align: center;
+        width: 585px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 900;
+        color: #393939;
+    }
+    &__btn {
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 241px;
+        height: 60px;
+        background-color: var(--main-color);
+        border: none;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-radius: 5px;
+        &:hover {
+            box-shadow: 3px 3px 20px var(--main-color);
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.scope {
+    min-height: 1330px;
+    padding-top: 80px;
+    &__title {
+        width: 630px;
+        margin-bottom: 25px;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0 auto 60px auto;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        grid-template-rows: repeat(3, 355px);
+        justify-content: center;
+        align-items: center;
+    }
+    &__block1 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-image:linear-gradient(45deg, rgba(36,0,16,1) 0%, rgba(121,9,38,0.46122198879551823) 0%, rgba(0,255,220,0.396796218487395) 100%), url('../img/scope/img1.png');
+    }
+    &__block2 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-image:linear-gradient(45deg, rgba(36,0,16,1) 0%, rgba(121,9,38,0.46122198879551823) 0%, rgba(0,255,220,0.396796218487395) 100%), url('../img/scope/img2.png');
+    }
+    &__block3 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-image:linear-gradient(45deg, rgba(36,0,16,1) 0%, rgba(121,9,38,0.46122198879551823) 0%, rgba(0,255,220,0.396796218487395) 100%), url('../img/scope/img3.png');
+    }
+    &__block4 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-image:linear-gradient(45deg, rgba(36,0,16,1) 0%, rgba(121,9,38,0.46122198879551823) 0%, rgba(0,255,220,0.396796218487395) 100%), url('../img/scope/img4.png');
+    }
+    &__block5 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-image:linear-gradient(45deg, rgba(36,0,16,1) 0%, rgba(121,9,38,0.46122198879551823) 0%, rgba(0,255,220,0.396796218487395) 100%), url('../img/scope/img5.png');
+    }
+    &__block6 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-image:linear-gradient(45deg, rgba(36,0,16,1) 0%, rgba(121,9,38,0.46122198879551823) 0%, rgba(0,255,220,0.396796218487395) 100%), url('../img/scope/img6.png');
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 570px;
+        height: 156px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    &__descr {
+        padding: 0 118px;
+        font-size: 23px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+    }
+}
